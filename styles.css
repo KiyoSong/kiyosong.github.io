@@ -89,13 +89,13 @@ div.photo-vertical-2 > img{
   }
 
 .pic-label {
-    font-size: 10px;
+    font-size: 4px;
     font-style: italic;
   }
 
 .pic-myself {
     float: left;
-    width: 200px;
+    width: 150px;
     margin-left: 5px;
     margin-right: 20px;
   }
@@ -115,7 +115,7 @@ p {
 
 
 .contact-info {
-  font-size: 14px;
+  font-size: 11px;
   margin-left: 5px;
 }
 
