@@ -60,11 +60,6 @@ ul {
 li {
   margin: 0px 0px 5px 0px;
 }
-  
-#about {
-    margin: 200px 0 100px 0;
-  }
-
 
 
 
@@ -93,7 +88,7 @@ div.photo-vertical-2 > img{
     font-style: italic;
   }
 
-.my-profile {
+#my-profile {
     float: left;
     width: 200px;
     margin-left: 5px;
