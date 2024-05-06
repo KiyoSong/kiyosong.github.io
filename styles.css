@@ -80,7 +80,7 @@ div.photo-vertical > img{
 
 div.photo-vertical-right > img{
     position: relative;
-    padding: 10px 200px 5px 0px;
+    padding: 10px 0px 5px 0px;
     margin-right: 0%;
     width: 400px;
     max-inline-size: 30%;
@@ -89,7 +89,7 @@ div.photo-vertical-right > img{
 div.photo-vertical-middle > img{
     position: relative;
     padding: 10px 0px 5px 0px;
-    margin-right: 50%;
+    margin-right: 40%;
     width: 400px;
     max-inline-size: 30%;
   }
