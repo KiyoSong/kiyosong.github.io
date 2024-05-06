@@ -64,28 +64,30 @@ li {
 
 
 img{
-    padding: 0;
-    display: block;
-    max-width: 100%;
-    margin: 0 auto;
+  padding: 0;
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  max-inline-size: 100%; 
   }
 
 div.photo-vertical > img{
     padding: 10px 0px 5px 0px;
     margin-left: 0%;
-    width: 300px;
+    width: 400px;
   }
 
 div.photo-vertical-2 > img{
     position: relative;
     padding: 10px 0px 5px 0px;
     margin-right: 0%;
-    width: 300px;
+    width: 400px;
   }
 
 .pic-label {
     font-size: 12px;
     font-style: italic;
+    margin: 0px 0px 10px 0px;
   }
 
 #my-profile {
@@ -114,8 +116,14 @@ p {
   margin-left: 5px;
 }
 
-  .name-rights {
+.name-rights {
     font-weight: 100;
     font-size: 8px;
     padding: 100px 0px 0px 0px;
+  }
+
+@media only screen and (max-width: 500px) {
+    img {
+      width: 100%;
+    }
   }
